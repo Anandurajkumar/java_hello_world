@@ -243,3 +243,39 @@ ls
 cd target
 ls
 pwd
+ls
+sudo install yum update
+sudo yum install update
+mkdir petclinic
+git init
+git remote add origin https://github.com/Anandurajkumar/petclinic.git
+git clone https://github.com/Ratheesh1986/spring-petclinic.git
+git add .
+git commit -m "petclinic"
+git remote -v
+git log
+git push origin master
+ls
+ /etc/lib
+cd /etc/lib
+mvn status
+sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.rep
+mvn retart
+mvn -x
+mvn -x restart
+clear
+mvn --version
+install jdk
+sudo amazon-linux-extras install java-openjdk11
+sudo yum install java-1.8.0-openjdk
+ls
+cd petclinic
+ls
+git pull origin master
+git log
+git clone https://github.com/Ratheesh1986/spring-petclinic.git
+git remote add origin https://github.com/Anandurajkumar/petclinic1.git
+git push origin master
+ls
+cd spring-petclinic
+ls
